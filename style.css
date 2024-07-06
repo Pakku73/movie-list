@@ -224,6 +224,8 @@ img.down-arrow-unactive {
 
 img.down-arrow-active {
   transform: rotate(0deg);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .movies-container {
@@ -258,7 +260,7 @@ footer {
     background-size: 100vw 75vh;
 
     div {
-      width: 75%;
+      width: 65%;
 
       h1 {
         font-size: 4rem;
@@ -290,6 +292,20 @@ footer {
     justify-content: center;
     width: 350px;
     gap: 20%;
+  }
+
+  .movie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .movie-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 
   .liste {
