@@ -238,6 +238,7 @@ img.down-arrow-active {
 }
 
 footer {
+    margin-top: 100px;
   padding: 10px;
   background-color: #414141;
   display: flex;
