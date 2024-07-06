@@ -290,7 +290,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 350px;
+    width: 300px;
     gap: 20%;
   }
 
@@ -306,6 +306,17 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+
+    h3 {
+        margin-top: 30px;
+        font-size: 1.5rem;
+      }
+  }
+
+  .movie-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .liste {
