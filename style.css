@@ -294,11 +294,7 @@ footer {
     gap: 20%;
   }
 
-  .movies-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+
   
   .movie{
     display: flex;
