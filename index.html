@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="icon" href="assets/images/Popcorn.png" />
+    <title>Cinéma Club</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#Acceuil">Acceuil</a>
+      <!-- <a href="#list">Listes</a> -->
+        <div class="dropdown">
+            <a href="#list">Listes</a>
+            <div class="dropdown-content">
+                <a href="#liste1">Liste 1</a>
+                <a href="#liste2">Liste 2</a>
+                <a href="#comedy">Comedy</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Acceuil">
+        <div>
+            <h1>Cinéma club</h1>
+            <p>Retrouvez une séléction des meilleurs films de tous les temps !</p>
+        </div>
+    </section>
+
+    <section id="list" class="movie-list">
+        <h2>Nos listes de films</h2>
+        <div id="liste1" class="liste">
+          <button><img src="assets/images/arrow.png" alt="">Première liste :</button>
+            <div class="movies-container"></div>
+        </div>
+        <div id="liste2" class="liste">
+          <button><img src="assets/images/arrow.png" alt="">Deuxième liste :</button>
+            <div class="movies-container"></div>
+        </div>
+    </section>
+
+    <footer>
+      <p>Les informations de site sont mises à jour régulièrement</p>
+    </footer>
+  </body>
+</html>
