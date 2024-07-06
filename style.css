@@ -240,7 +240,7 @@ img.down-arrow-active {
 }
 
 footer {
-    margin-top: 100px;
+  margin-top: 100px;
   padding: 10px;
   background-color: #414141;
   display: flex;
@@ -249,10 +249,9 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-
-    body{
-        max-width: 100vw;
-    }
+  body {
+    max-width: 100vw;
+  }
 
   #Acceuil {
     height: 70vh;
@@ -294,25 +293,23 @@ footer {
     gap: 20%;
   }
 
-
-  
-  .movie{
+  .movie {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .movie-info{
+  .movie-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 
     h3 {
-        margin-top: 30px;
-        font-size: 1.5rem;
-      }
+      margin-top: 30px;
+      font-size: 1.5rem;
+    }
   }
 
   .movie-image {
@@ -324,7 +321,7 @@ footer {
   .liste {
     button {
       font-size: 2rem;
-      font-family: 'Roboto';
+      font-family: "Roboto";
     }
   }
 }
