@@ -56,7 +56,7 @@ const liste1 = [
         imageAlt: 'Fight Club',
         title: 'Fight Club',
         duration: '90 min',
-        description: 'A venir'
+        description: "Mérite pas sa place sur l'étagère des classique apparement"
     },
     {
         imageSrc: 'assets/images/affiches/liste1/bienvenue-a-gattaca.jpg',
@@ -84,7 +84,7 @@ const liste1 = [
         imageAlt: "L'Étrange Noël de monsieur Jack",
         title: "L'Étrange Noël de monsieur Jack",
         duration: '2h 22m',
-        description: 'A venir'
+        description: 'Pas fou'
     },
     {
         imageSrc: 'assets/images/affiches/liste1/frankenweenie.jpg',
@@ -98,7 +98,7 @@ const liste1 = [
         imageAlt: 'Pacific Rim',
         title: 'Pacific Rim',
         duration: '2h 22m',
-        description: 'A venir'
+        description: 'Meilleur film de tout les temps je ne veut rien savoir je ne pourrais pas écrire quelque chose de négatif à son sujet'
     },
     {
         imageSrc: 'assets/images/affiches/liste1/Starchip-Troopers.jpg',
